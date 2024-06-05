@@ -1,5 +1,4 @@
 ﻿bool restart = false;
-bool useTestData = true;
 
 string[] options = new[]
 {
