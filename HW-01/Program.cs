@@ -1,4 +1,5 @@
-﻿using HW_01;
+﻿using System.Data;
+using HW_01;
 
 bool restart = false;
 
@@ -28,8 +29,22 @@ var texts = new Dictionary<Language, string[]>()
 do
 {
     Console.WriteLine("Choose language (1 - English, 2 - Russian):");
-    string? langChoice = Console.ReadLine();
-    Language selectedLanguage = langChoice == "2" ? Language.Russian : Language.English;
+    string? readInput;
+    bool repeat = true;
+    do
+    {
+        readInput = Console.ReadLine();
+        if (readInput != "1" && readInput != "2")
+        {
+            Console.WriteLine("\rInput number should be either 1 or 2");
+        }
+        else
+        {
+            repeat = false;
+        }
+    } while (repeat);
+
+    Language selectedLanguage = readInput == "1" ? Language.English : Language.Russian;
 
     Console.WriteLine("Please, press Enter to start typing...");
     Console.ReadLine();
