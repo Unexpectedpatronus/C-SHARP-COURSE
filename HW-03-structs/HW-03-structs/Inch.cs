@@ -49,5 +49,10 @@ public struct Inch(double val) : IEquatable<Inch>
         return obj is Inch && ((Inch)obj).Value == Value;
     }
 
+    public override int GetHashCode()
+    {
+        return Value.GetHashCode();
+    }
+
     public override string ToString() => $"{Value} in";
 }

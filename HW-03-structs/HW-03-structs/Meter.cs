@@ -54,5 +54,10 @@ public struct Meter : IEquatable<Meter>
         return obj is Meter && ((Meter)obj).Value == Value;
     }
 
+    public override int GetHashCode()
+    {
+        return Value.GetHashCode();
+    }
+
     public override string ToString() => $"{Value} m";
 }

@@ -201,4 +201,14 @@ public class InchTest
         // assert
         Assert.Equal(inchToString, i1.ToString());
     }
+
+    [Fact(DisplayName = "Expected Meter.GetHashCode() and Inch.GetHashCode() to be equal if their values are equal")]
+    public void Test10()
+    {
+        // arrange
+        Inch i1 = new Inch(5.0);
+        Meter m1 = new Meter(5);
+        // act & assert
+        Assert.Equal(i1.GetHashCode(), m1.GetHashCode());
+    }
 }
