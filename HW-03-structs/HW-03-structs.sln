@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW-03-structs", "HW-03-structs\HW-03-structs.csproj", "{8AA269CD-515B-47FA-ABA8-7E48B1171A17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{79BB8109-8A52-4F16-8FE7-EFB8E3D16738}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AA269CD-515B-47FA-ABA8-7E48B1171A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA269CD-515B-47FA-ABA8-7E48B1171A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA269CD-515B-47FA-ABA8-7E48B1171A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA269CD-515B-47FA-ABA8-7E48B1171A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79BB8109-8A52-4F16-8FE7-EFB8E3D16738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79BB8109-8A52-4F16-8FE7-EFB8E3D16738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79BB8109-8A52-4F16-8FE7-EFB8E3D16738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79BB8109-8A52-4F16-8FE7-EFB8E3D16738}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
