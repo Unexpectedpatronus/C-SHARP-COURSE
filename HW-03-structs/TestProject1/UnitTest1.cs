@@ -183,7 +183,7 @@ public class InchTest
         Inch i1 = new Inch(5.0);
         object i2 = new Inch(5.0);
         object i3 = new Inch(7.0);
-        object nonInch = new { Value = 5.0 }; // A non-Inch object for testing
+        object nonInch = new { Value = 5.0 };
 
         // act & assert
         Assert.True(i1.Equals(i2), "Expected meters to be equal");
