@@ -39,7 +39,7 @@ public class MeterTest
         Assert.Equal(-7, m2.Value);
     }
 
-    [Fact(DisplayName = "Inches in Meters")]
+    [Fact(DisplayName = "Inches in Metres")]
     public void Test4()
     {
         // arrange
@@ -50,7 +50,7 @@ public class MeterTest
         Assert.Equal(Math.Round(100 / 39.3701, 2), m1.Value);
     }
 
-    [Fact(DisplayName = "Meters == (Meter)Inches")]
+    [Fact(DisplayName = "Metres == (Meter)Inches")]
     public void Test6()
     {
         // arrange
@@ -139,7 +139,7 @@ public class InchTest
         Assert.Equal(-7, inch1.Value);
     }
 
-    [Fact(DisplayName = "Meters in Inches")]
+    [Fact(DisplayName = "Metres in Inches")]
     public void Test4()
     {
         // arrange
@@ -151,7 +151,7 @@ public class InchTest
     }
 
 
-    [Fact(DisplayName = "Inches == (Inch)Meters")]
+    [Fact(DisplayName = "Inches == (Inch)Metres")]
     public void Test6()
     {
         // arrange
